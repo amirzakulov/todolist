@@ -1,0 +1,64 @@
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.logout {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url("/public/img/logout.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.todo_table td,
+.todo_table th {
+    font-size: 13px;
+}
+
+.sort_column,
+.sort_column:hover {
+    display:block;
+    color: #495057;
+    text-decoration: none !important;
+}
+
+.sortNO {
+    background: url("/public/img/sort_no.png") no-repeat right top;
+}
+
+.sortAZ {
+    background: url("/public/img/sort_a_z.png") no-repeat right top;
+}
+
+.sortZA {
+    background: url("/public/img/sort_z_a.png") no-repeat right top;
+}
+

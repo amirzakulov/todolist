@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1b9270b3-9b60-48ce-a4f7-7b36845a57d3" name="todolist" url="http://213.230.68.119">
+        <fileTransfer host="213.230.68.119" port="21" rootFolder="/todolist">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="23317f98-6e74-4c59-9632-b263b32ef707" name="todoAlmirab" url="http://almirab.uz">
+        <fileTransfer host="almirab.uz" port="21" rootFolder="/www/almirab.uz/todolist/">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0a8d365c-7d12-4e09-9c10-9d05a4edbb8a" name="todo.almirab.uz" url="http://todolist.almirab.uz">
+        <fileTransfer host="todolist.almirab.uz" port="21" rootFolder="/www/todolist.almirab.uz/">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
